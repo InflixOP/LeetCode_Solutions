@@ -6,7 +6,7 @@ class Solution {
             int s=word.size();
             int maxi=s-n+1;
             string ans="";
-            for(int i=0;i<n;i++){
+            for(int i=0;i<s;i++){
                 string sample=word.substr(i,maxi);
                 if(sample>ans)
                 ans=sample;
